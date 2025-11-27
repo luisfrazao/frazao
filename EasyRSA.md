@@ -38,10 +38,9 @@ vim vars
 ./easyrsa sign-req email oMeuNome
 »»»» pass para assinar é: "1234"
 
-cd pki
-
 ./easyrsa export-p12 oMeuNome
 ### ou com openssl: 
+cd pki
 openssl pkcs12 -export -in issued/oMeuNome.crt -inkey private/oMeuNome.key -out oMeuNome_merged.p12
 ```
 ### agora e' importar o ficheiro para o thunderbird.
