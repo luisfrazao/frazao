@@ -6,15 +6,17 @@
     **ou com a CA já criada » (recomendado em aula)**<br>
    `wget https://github.com/luisfrazao/frazao/raw/refs/heads/master/EasyRSA-3.1.7--SS.zip`
 
-### 2. descompactar e alterar o email no ficheiro vars (email igual ao configurado no Thunderbird):
+### 2. descompactar:
    ``` Bash
 tar -xvzf EasyRSA-3.1.7.tgz        ou      unzip EasyRSA-3.1.7--SS.zip
 cd EasyRSA-3.1.7
 ```
- não fazer o próximo  comando se fizeram o unzip 
+ não fazer o próximo comando se usarem  o unzip 
 ```
 cp vars.example vars
-
+```
+editar o ficheiro vars e alterar o email (email igual ao configurado no Thunderbird)
+```
 vim vars
 	set_var EASYRSA_DN      "org"
 	set_var EASYRSA_REQ_COUNTRY     "PT"  
