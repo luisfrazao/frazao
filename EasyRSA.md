@@ -1,7 +1,7 @@
 
 ### 1. Descarregar script EasyRSA https://github.com/OpenVPN/easy-rsa/releases:
    `wget https://github.com/OpenVPN/easy-rsa/releases/download/v3.1.7/EasyRSA-3.1.7.tgz`
-    ou com a CA já criada » (recomendado em aula)
+   <br>ou com a CA já criada » (recomendado em aula)
    `wget https://github.com/luisfrazao/frazao/blob/master/EasyRSA-3.1.7--SS.zip`
 
 ### 2. descompactar e alterar o email no ficheiro vars (email igual ao configurado no Thunderbird):
