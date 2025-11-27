@@ -10,7 +10,9 @@
    ``` Bash
 tar -xvzf EasyRSA-3.1.7.tgz        ou      unzip EasyRSA-3.1.7--SS.zip
 cd EasyRSA-3.1.7
-
+```
+ não fazer o próximo  comando se fizeram o unzip 
+```
 cp vars.example vars
 
 vim vars
